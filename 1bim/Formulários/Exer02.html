@@ -10,8 +10,11 @@
 
 <body>
     <main>
-        <div class="Identificacao">
-            <p>Identicação do Usuário</p>
+
+
+        <fieldset>
+
+            <h2>Identicação do Usuário</h2>
             <label for="nome">Nome: </label>
             <input type="text"><br><br>
 
@@ -24,11 +27,12 @@
             <label for="civil">Estado Civil</label>
             <input type="text" class="civil"> <br><br>
 
-            <label for="sexo">Sexo</label>
-            <select name="Sexo" id="">
-                <option value="e">Escolha</option>
-                <option value="m">Masculino</option>
-                <option value="f">Feminino</option>
+            <label for="sexo">Sexo</label> <br>
+
+            <input type="radio" id="m" name="gender" value="m">
+            <label for="m">Masculino</label>
+            <input type="radio" id="f" name="" value="f">
+            <label for="f">Feminino</label>
 
             </select>
             <br><br>
@@ -60,7 +64,7 @@
             <label for="email">Email: </label>
             <input type="email" name="email"> <br><br>
 
-            <p>Localização</p>
+            <h2>Localização</h2>
 
 
             <label for="estado">Estado</label>
@@ -102,25 +106,22 @@
                 <option value="Escolha">Escolha</option>
             </Select> <br><br>
 
-            <p>Mensagem do Usuário</p>
+            <h2>Mensagem do Usuário</h2>
 
             <label for="grau">Grau de Urgência: </label>
             <input type="text" name="grau"> <br><br>
 
 
-            <label for="upload">Reportar Erro</label>
+            <label for="mensagem">Reportar Erro: </label><br><br>
+            <textarea name="mensagem" id="" cols="30" rows="10">Mensagem</textarea> <br><br>
+
             <input type="file" name="upload"> <br><br>
 
 
-            <button> Enviar</button> 
+            <button> Enviar</button>
             <button>Limpar</button>
+        </fieldset>
 
-
-
-
-
-
-        </div>
     </main>
 
 </body>
