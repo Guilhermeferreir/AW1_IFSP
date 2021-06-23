@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="Pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+
+<body>
+    <header>
+        <a href=""><img src="logo.png" alt="" width="50px" height="50px"></a>
+        <nav>
+            <li><a href="#">Formulario</a></li>
+            <li><a href="Sobre.html">Sobre</a></li>
+        </nav>
+    </header>
+    <section class="formulario">
+        <form action="">
+            <h1>Faça seu Cadastro!</h1>
+
+            <section class="login >
+                <label for=" login">Login</label>
+                <input type="text" placeholder="Digite seu usuario"><br>
+
+                <label for="senha">Senha</label>
+                <input name="senha" type="password" placeholder="Digite sua senha"> <br><br><br>
+            </section>
+
+            <section class="cadastro">
+
+                <label for="nome">Nome</label>
+                <input type="text" name="nome" placeholder="Digite seu nome"><br>
+
+                <label for="nascimento">Data de Nascimento</label>
+                <input type="date" nome="nascimento"><br>
+
+                <label for="sexo">Sexo</label>
+
+                <input type="radio" id="m" name="gender" value="m">
+                <label for="m">Masculino</label>
+
+                <input type="radio" id="f" name="f" value="f">
+                <label for="f">Feminino</label><br>
+
+                <h3>Endereco</h3>
+
+                <label for="rua">Rua</label>
+                <input type="text" placeholder="Insira o nome da sua rua" name="cep"><br><br>
+
+                <label for="num">Número</label>
+                <input type="text" placeholder="Insira o número" name="num"><br><br>
+
+                <label for="complemento">Complemento</label>
+                <input type="text" placeholder="Insira o complemento" name="complemento"> <br><br>
+
+                <label for="cep">CEP</label>
+                <input type="number" placeholder="Insira o número" name="cep" required
+                    pattern="[0-9]{5}-[0-9]{3}"><br><br>
+
+                <label for="cidades">Cidade</label>
+                <select name="cidades" id="cidades">
+                    <option value="escolha">Escolha</option>
+                    <option value="SP">São Paulo</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="BH">Belo Horizonte</option>
+                    <option value="PR">Paraná</option>
+                    <option value="BA">Bahia</option>
+                
+                </select> <br><br>
+
+
+                <label for="tel">Celular: </label>
+                <input type="tel" name="cel" placeholder="Número de celular"> <br><br>
+
+
+                <label for="tel">Telefone: </label>
+                <input type="tel" name="tel" placeholder="Telefone fixo"> <br><br>
+
+                <label for="email">Email: </label>
+                <input type="email" name="email" placeholder="Insira seu Email"> <br><br>
+                <label for="">Comorbidades</label><br>
+
+                <input type="radio" id="hiper" name="gender" value="hiper">
+                <label for="hiper">Hipertensão</label><br>
+
+                <input type="radio" id="DRC" name="DRC" value="DRC">
+                <label for="DRC">Doença renal crônica</label><br>
+
+                <input type="radio" id="Imunu" name="Imunu" value="Imunu">
+                <label for="Imuno">Imunossuprimidos</label><br>
+
+                <input type="radio" id="afc" name="afc" value="afc">
+                <label for="afc">Anemia falciforme</label><br>
+
+                <input type="radio" id="OM" name="OM" value="OM">
+                <label for="OM">Obesidade mórbida</label><br>
+
+                <input type="radio" id="CH" name="CH" value="CH">
+                <label for="CH">Cirrose hepática</label><br><br>
+            </section class="botoes">
+
+            <button>Enviar</button>
+            <button>Limpar</button>
+
+            <section>
+            </section>
+
+        </form>
+    </section>
+    <footer>
+        <p>sitezinho by Guilherme Ferreira</p>
+    </footer>
+</body>
+
+</html>
